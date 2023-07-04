@@ -1,0 +1,79 @@
+@media screen and (max-width: 768px) {
+  header .navBar {
+    width: 70%;
+  }
+  header .navBar ul li a {
+    font-size: 1.5em;
+  }
+  header .navBar .navRedes i {
+    font-size: 1.5em;
+  }
+  #presentation {
+    background-size: 90%;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    gap: 1em;
+    padding: 0;
+  }
+  #presentation a {
+    padding-bottom: 2em;
+  }
+  #presentation a:nth-child(4) {
+    padding-bottom: 2em;
+  }
+  #music {
+    height: auto;
+  }
+  #music .repertorioSongs {
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 5em;
+    padding: 10em 0;
+  }
+  #music .repertorioSongs .Song img {
+    width: 200px;
+    height: 200px;
+  }
+  #eventos {
+    width: 90%;
+  }
+  #eventos .eventDay {
+    flex-direction: column;
+  }
+  #eventos .eventDay .eventDayL .eventDayNumber {
+    padding: 0 0.5em 0 0;
+  }
+  #eventos .eventDay .eventDayL .eventDayPlace p {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0;
+  }
+  #eventos .eventDay .eventDayL .eventDayPlace p:nth-child(2) {
+    padding: 0;
+  }
+  #eventos .eventDay .eventDayL .eventDayPlace p:nth-child(3) {
+    padding: 0;
+  }
+  #eventos .eventDay .eventDayR {
+    position: absolute;
+    right: 0;
+    margin: 2em 3em 0 0;
+    z-index: -1;
+  }
+  #eventos .eventDay .eventDayR span {
+    margin: 2em 0 0 0;
+    font-size: 1.2em;
+  }
+  #galery .galery {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+  }
+  #contact .footRedes {
+    gap: 0.5em;
+  }
+  #contact .footMenu a {
+    font-size: 0.8em;
+  }
+}/*# sourceMappingURL=media.css.map */

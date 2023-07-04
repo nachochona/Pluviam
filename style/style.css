@@ -1,0 +1,592 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  font-family: "Open Sans";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.separator {
+  height: 3px;
+  width: 100%;
+  background-color: #3e8462;
+}
+
+body {
+  background-color: #111;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: flex-end;
+  background: transparent;
+  padding: 1em 2em 1em 0;
+}
+header .navBar {
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: end;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  right: -40%;
+  height: 100vh;
+  width: 25%;
+  gap: 2em;
+  padding: 3em 1em 3em 0;
+  background: transparent;
+  background-color: rgba(0, 0, 0, 0.6431372549);
+  backface-visibility: hidden;
+  transition: all 0.4s ease-in-out;
+}
+header .navBar ul {
+  margin-bottom: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 2em;
+  border-left: 10px solid #3e8462;
+}
+header .navBar ul li {
+  list-style: none;
+}
+header .navBar ul li a {
+  text-transform: uppercase;
+  font-size: 1.5em;
+  color: #dddddd;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+header .navBar ul li a i {
+  color: #dddddd;
+  font-size: 1.6em;
+  margin-left: 0.2em;
+  transition: all 0.4s ease-in-out;
+}
+header .navBar ul li a:hover {
+  color: #3e8462;
+  padding-right: 1em;
+}
+header .navBar ul li a:hover i {
+  color: #3e8462;
+}
+header .navBar .navRedes i {
+  font-size: 1.8em;
+  background-color: rgba(0, 0, 0, 0.1254901961);
+  padding: 0.3em 0.5em;
+  margin: 0 0.1em;
+  transition: all 0.1s ease;
+}
+header .navBar .navRedes .bi-spotify {
+  color: #dddddd;
+  background: #1ab952;
+}
+header .navBar .navRedes .bi-spotify:hover {
+  color: #000;
+  box-shadow: 0 0 10px #1ed760;
+}
+header .navBar .navRedes .bi-youtube {
+  background: #c4302b;
+  color: #dddddd;
+}
+header .navBar .navRedes .bi-youtube:hover {
+  color: #000;
+  box-shadow: 0 0 10px #c4302b;
+}
+header .navBar .navRedes .bi-instagram {
+  color: #dddddd;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+header .navBar .navRedes .bi-instagram:hover {
+  color: #000;
+  box-shadow: 0 0 10px #bc1888;
+}
+header .navBar .navRedes .bi-facebook {
+  background: #2f55a4;
+  color: #dddddd;
+}
+header .navBar .navRedes .bi-facebook:hover {
+  color: #000;
+  box-shadow: 0 0 10px #2f55a4;
+}
+header #cerrarMenu {
+  display: flex;
+  justify-content: end;
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+header #abrirMenu {
+  display: block;
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+header .visible {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+header .quitar {
+  opacity: 0;
+  visibility: hidden;
+  position: relative;
+}
+header svg {
+  font-size: 2em;
+}
+
+.scroll {
+  transition: all 0.2s ease-in-out;
+}
+
+#presentation {
+  height: 100vh;
+  background: linear-gradient(rgba(17, 17, 17, 0.7137254902), rgba(17, 17, 17, 0.7137254902)), url(/Pluviam/img/pluviam.png) center no-repeat;
+  background-size: 50%;
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  flex-direction: column;
+  gap: 1em;
+}
+#presentation a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.1882352941);
+}
+#presentation a i {
+  font-size: 2em;
+  transition: all 0.4s ease-in-out;
+  padding: 0 0 0 0.5em;
+}
+#presentation a:nth-child(4) {
+  padding-bottom: 1em;
+}
+#presentation .bi-spotify:hover {
+  color: #1ed760;
+}
+#presentation .bi-youtube:hover {
+  color: #c4302b;
+}
+#presentation .bi-instagram:hover {
+  color: #bc1888;
+}
+#presentation .bi-facebook:hover {
+  color: #2f55a4;
+}
+
+#music {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #43876a;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(352,683,347)'%3E%3Cstop offset='0' stop-color='%2343876A'/%3E%3Cstop offset='1' stop-color='%2343876A'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='300' height='250' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.01'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#music .repertorioSongs {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 10em;
+  width: 100%;
+}
+#music .repertorioSongs .Song {
+  background-color: rgba(0, 0, 0, 0.1254901961);
+  transition: all 0.2s ease-in-out;
+  padding: 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+#music .repertorioSongs .Song img {
+  width: 250px;
+  height: 250px;
+}
+#music .repertorioSongs .Song .SongTitle {
+  text-align: center;
+  padding: 1em 0;
+}
+#music .repertorioSongs .Song .SongTitle h3 {
+  padding: 0.3em 0;
+  font-size: 1.5em;
+  color: #dddddd;
+  text-transform: uppercase;
+}
+#music .repertorioSongs .Song .SongTitle p {
+  font-size: 1.1em;
+  color: #dddddd;
+}
+#music .repertorioSongs .Song .SongRedes {
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  z-index: 100;
+}
+#music .repertorioSongs .Song .SongRedes a {
+  color: transparent;
+}
+#music .repertorioSongs .Song .SongRedes i {
+  font-size: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#music .repertorioSongs .Song .SongRedes .bi-spotify {
+  color: #1ed760;
+  font-size: 3em;
+}
+#music .repertorioSongs .Song .SongRedes .bi-spotify:hover {
+  color: #46ff86;
+}
+#music .repertorioSongs .Song .SongRedes .bi-youtube {
+  color: #c4302b;
+  font-size: 3.5em;
+}
+#music .repertorioSongs .Song .SongRedes .bi-youtube:hover {
+  color: #ff5a54;
+}
+#music .repertorioSongs .Song:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1254901961);
+}
+
+#eventos {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10em;
+}
+#eventos .eventTitle {
+  margin: 0 auto;
+  width: 80%;
+  padding: 3em 0;
+}
+#eventos .eventTitle h2 {
+  font-size: 4em;
+  color: #dddddd;
+  text-align: center;
+}
+#eventos .eventMonth {
+  display: flex;
+  padding: 1em 0 0 0;
+}
+#eventos .eventMonth div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto 20fr;
+  align-items: center;
+}
+#eventos .eventMonth div .line {
+  height: 2px;
+  width: 100%;
+  background-color: #3e8462;
+}
+#eventos .eventMonth div p {
+  padding: 0 1em;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: #dddddd;
+}
+#eventos .eventDay {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  margin: 1em 0;
+}
+#eventos .eventDay .eventDayL {
+  display: flex;
+  transition: all ease-in-out 0.5s;
+}
+#eventos .eventDay .eventDayL .eventDayNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 1em;
+}
+#eventos .eventDay .eventDayL .eventDayNumber p {
+  font-size: 1em;
+  color: #dddddd;
+}
+#eventos .eventDay .eventDayL .eventDayNumber p:nth-child(2) {
+  font-size: 2em;
+  color: #dddddd;
+}
+#eventos .eventDay .eventDayL .eventDayPlace {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 1em;
+  border-left: 5px solid #3e8462;
+  transition: all ease-in-out 0.5s;
+}
+#eventos .eventDay .eventDayL .eventDayPlace p {
+  font-size: 2em;
+  color: #dddddd;
+  display: block;
+}
+#eventos .eventDay .eventDayL .eventDayPlace p span {
+  font-size: 0.5em;
+}
+#eventos .eventDay .eventDayL .eventDayPlace p:nth-child(2) {
+  font-size: 1.1em;
+  color: #dddddd;
+}
+#eventos .eventDay .eventDayL .eventDayPlace p:nth-child(3) {
+  font-size: 1em;
+  color: #dddddd;
+}
+#eventos .eventDay .eventDayR {
+  display: flex;
+  align-items: center;
+}
+#eventos .eventDay .eventDayR a i {
+  font-size: 3em;
+  color: #c4302b;
+}
+#eventos .eventDay .eventDayR span {
+  font-size: 2em;
+  color: #c7c7c7;
+  opacity: 0;
+  position: absolute;
+  text-transform: uppercase;
+}
+#eventos .eventDayL:hover {
+  padding-left: 2em;
+  background: rgba(255, 255, 255, 0.0196078431);
+}
+#eventos .eventDayL:hover .eventDayPlace {
+  border-left: 5px solid #13291e;
+}
+#eventos .proximo .eventDayL .eventDayPlace {
+  border-left: 5px solid #c7c7c7;
+}
+#eventos .proximo .eventDayR {
+  position: relative;
+  z-index: -1;
+}
+#eventos .proximo .eventDayR a {
+  opacity: 0;
+  position: relative;
+}
+#eventos .proximo .eventDayR span {
+  opacity: 1;
+  position: relative;
+}
+#eventos .proximo .eventDayL:hover {
+  padding-left: 0em;
+}
+#eventos .proximo .eventDayL:hover .eventDayPlace {
+  border-left: 5px solid #dddddd;
+}
+#eventos .quitar {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+#galery {
+  width: 100%;
+}
+#galery .galery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1em;
+  width: 75%;
+  margin: 10em auto;
+}
+#galery .galery img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: all 0.2s ease;
+}
+#galery .galery img:nth-child(2) {
+  grid-column-start: span 2;
+}
+#galery .galery img:nth-child(6) {
+  grid-column-start: span 2;
+}
+
+#contact {
+  background-color: #202320;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3em;
+}
+#contact img {
+  max-width: 100px;
+}
+#contact .footRedes {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 2em;
+}
+#contact .footRedes a {
+  cursor: pointer;
+}
+#contact .footRedes i {
+  font-size: 2em;
+  background-color: rgba(0, 0, 0, 0.1882352941);
+  padding: 0.3em 0.5em;
+  margin: 0 0.1em;
+  transition: all 0.1s ease;
+  margin: auto;
+  border-radius: 20%;
+}
+#contact .footRedes .bi-spotify {
+  color: #dddddd;
+}
+#contact .footRedes .bi-spotify:hover {
+  color: #fff;
+  box-shadow: 0 0 20px #1ed760;
+}
+#contact .footRedes .bi-youtube {
+  color: #dddddd;
+}
+#contact .footRedes .bi-youtube:hover {
+  color: #fff;
+  box-shadow: 0 0 20px #c4302b;
+}
+#contact .footRedes .bi-instagram {
+  color: #dddddd;
+}
+#contact .footRedes .bi-instagram:hover {
+  color: #fff;
+  box-shadow: 0 0 20px #bc1888;
+}
+#contact .footRedes .bi-facebook {
+  color: #dddddd;
+}
+#contact .footRedes .bi-facebook:hover {
+  color: #fff;
+  box-shadow: 0 0 20px #2f55a4;
+}
+#contact .footRedes .bi-envelope-at-fill {
+  color: #dddddd;
+}
+#contact .footRedes .bi-envelope-at-fill:hover {
+  color: #fff;
+  box-shadow: 0 0 20px #dddddd;
+}
+#contact .footMenu {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 0.5em;
+}
+#contact .footMenu a {
+  text-transform: uppercase;
+  font-size: 1em;
+  color: #dddddd;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+#contact .footMenu a:hover {
+  color: #3e8462;
+}
+#contact .copyright {
+  background: #111;
+  width: 100%;
+  text-align: center;
+  color: #dddddd;
+  padding: 0.5em 0;
+}
+
+@media screen and (max-width: 768px) {
+  header .navBar {
+    width: 70%;
+  }
+  header .navBar ul li a {
+    font-size: 1.5em;
+  }
+  header .navBar .navRedes i {
+    font-size: 1.5em;
+  }
+  #presentation {
+    background-size: 90%;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+    gap: 1em;
+    padding: 0;
+  }
+  #presentation a {
+    padding-bottom: 2em;
+  }
+  #presentation a:nth-child(4) {
+    padding-bottom: 2em;
+  }
+  #music {
+    height: auto;
+  }
+  #music .repertorioSongs {
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 5em;
+    padding: 10em 0;
+  }
+  #music .repertorioSongs .Song img {
+    width: 200px;
+    height: 200px;
+  }
+  #eventos {
+    width: 90%;
+  }
+  #eventos .eventDay {
+    flex-direction: column;
+  }
+  #eventos .eventDay .eventDayL .eventDayNumber {
+    padding: 0 0.5em 0 0;
+  }
+  #eventos .eventDay .eventDayL .eventDayPlace p {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0;
+  }
+  #eventos .eventDay .eventDayL .eventDayPlace p:nth-child(2) {
+    padding: 0;
+  }
+  #eventos .eventDay .eventDayL .eventDayPlace p:nth-child(3) {
+    padding: 0;
+  }
+  #eventos .eventDay .eventDayR {
+    position: absolute;
+    right: 0;
+    margin: 2em 3em 0 0;
+    z-index: -1;
+  }
+  #eventos .eventDay .eventDayR span {
+    margin: 2em 0 0 0;
+    font-size: 1.2em;
+  }
+  #galery .galery {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+  }
+  #contact .footRedes {
+    gap: 0.5em;
+  }
+  #contact .footMenu a {
+    font-size: 0.8em;
+  }
+}/*# sourceMappingURL=style.css.map */
