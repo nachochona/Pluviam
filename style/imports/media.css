@@ -65,6 +65,9 @@
     margin: 2em 0 0 0;
     font-size: 1.2em;
   }
+  #eventos .eventMonth {
+    padding: 3em 0;
+  }
   #galery .galery {
     display: flex;
     flex-flow: column;

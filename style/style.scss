@@ -171,7 +171,7 @@ header {
 
 #presentation{
     height: 100vh;
-    background: linear-gradient(#111111b6, #111111b6), url(/Pluviam/img/pluviam.png) center no-repeat;
+    background: linear-gradient(#111111b6, #111111b6), url(../img/pluviam.png) center no-repeat;
     background-size: 50%;
     display: flex;
     justify-content: end;
@@ -317,7 +317,7 @@ header {
         display: flex;
         //background: #000;
         padding: 1em 0 0 0;
-
+        align-items: center;
         div {
             width: 100%;
             display: grid;

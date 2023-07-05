@@ -154,7 +154,7 @@ header svg {
 
 #presentation {
   height: 100vh;
-  background: linear-gradient(rgba(17, 17, 17, 0.7137254902), rgba(17, 17, 17, 0.7137254902)), url(/Pluviam/img/pluviam.png) center no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.7137254902), rgba(17, 17, 17, 0.7137254902)), url(../img/pluviam.png) center no-repeat;
   background-size: 50%;
   display: flex;
   justify-content: end;
@@ -283,6 +283,7 @@ header svg {
 #eventos .eventMonth {
   display: flex;
   padding: 1em 0 0 0;
+  align-items: center;
 }
 #eventos .eventMonth div {
   width: 100%;
@@ -577,6 +578,9 @@ header svg {
   #eventos .eventDay .eventDayR span {
     margin: 2em 0 0 0;
     font-size: 1.2em;
+  }
+  #eventos .eventMonth {
+    padding: 3em 0;
   }
   #galery .galery {
     display: flex;
