@@ -154,8 +154,8 @@ header svg {
 
 #presentation {
   height: 100vh;
-  background: linear-gradient(rgba(17, 17, 17, 0.7137254902), rgba(17, 17, 17, 0.7137254902)), url(../img/pluviam.png) center no-repeat;
-  background-size: 50%;
+  background: linear-gradient(rgba(17, 17, 17, 0.7137254902), rgba(17, 17, 17, 0.7137254902)), url(../img/LOGO_PLUVIAM_CONTORNO.png) center no-repeat;
+  background-size: 60%;
   display: flex;
   justify-content: end;
   align-items: start;
@@ -531,10 +531,10 @@ header svg {
     padding: 0;
   }
   #presentation a {
-    padding-bottom: 2em;
+    padding-bottom: 4em;
   }
   #presentation a:nth-child(4) {
-    padding-bottom: 2em;
+    padding-bottom: 4em;
   }
   #music {
     height: auto;
@@ -554,7 +554,7 @@ header svg {
   }
   #eventos .eventDay {
     flex-direction: column;
-    margin: 3em 0;
+    margin: 0em 0;
   }
   #eventos .eventDay .eventDayL .eventDayNumber {
     padding: 0 0.5em 0 0;

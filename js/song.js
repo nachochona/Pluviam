@@ -5,12 +5,14 @@ const Song =[
         name:"Ragnarok",
         age:"2022",
         spotify:"https://open.spotify.com/track/4ZOFON5uG0tr01Xms9x4sS?si=175395de6e9140d8",
+        youtube:"https://www.youtube.com/watch?v=kIjclhqpl7I&list=OLAK5uy_lyZcYtoIjHGeTPXE7ReMosCgVrYPk016c&ab_channel=Pluviam-Topic",
     },
     {
         img:"https://i.scdn.co/image/ab67616d00001e0202d137419106750366c10382",
         name:"Apocalipsis",
         age:"2023",
         spotify:"https://open.spotify.com/track/6qp0DEsMADy5OaRY5UYfwd?si=a0b34db3d5cd47fe",
+        youtube:"https://www.youtube.com/watch?v=gfnjOlI9IGY&list=OLAK5uy_m3gGE374lv_nFhy2v_KzXmSevFbF-4WFk&ab_channel=Pluviam-Topic",
     },
 ];
 
@@ -29,7 +31,7 @@ function ShowSong (song){
                         <a href="${element.spotify}"target="_blank">
                             <i class="bi bi-spotify"></i>
                         </a>
-                        <a href="">
+                        <a href="${element.youtube}" target="_blank">
                             <i class="bi bi-youtube"></i>
                         </a>
                     </div>
