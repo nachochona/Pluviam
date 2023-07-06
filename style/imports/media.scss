@@ -23,7 +23,7 @@
     }
 
     #presentation{
-        background-size: 90%;
+        background-size: 120%;
         flex-direction: row;
         align-items: end;
         justify-content: center;
@@ -31,6 +31,9 @@
         padding: 0;
         a{
             padding-bottom: 4em;
+            i{
+                padding: 0 .2em;
+            }
         }
         a:nth-child(4){
             padding-bottom: 4em;

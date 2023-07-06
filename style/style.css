@@ -154,8 +154,8 @@ header svg {
 
 #presentation {
   height: 100vh;
-  background: linear-gradient(rgba(17, 17, 17, 0.7137254902), rgba(17, 17, 17, 0.7137254902)), url(../img/LOGO_PLUVIAM_CONTORNO.png) center no-repeat;
-  background-size: 60%;
+  background: linear-gradient(rgba(17, 17, 17, 0.8666666667), rgba(17, 17, 17, 0.8666666667)), url(../img/LOGO_PLUVIAM_CONTORNO.png) center no-repeat;
+  background-size: 80%;
   display: flex;
   justify-content: end;
   align-items: start;
@@ -523,7 +523,7 @@ header svg {
     font-size: 1.5em;
   }
   #presentation {
-    background-size: 90%;
+    background-size: 120%;
     flex-direction: row;
     align-items: end;
     justify-content: center;
@@ -532,6 +532,9 @@ header svg {
   }
   #presentation a {
     padding-bottom: 4em;
+  }
+  #presentation a i {
+    padding: 0 0.2em;
   }
   #presentation a:nth-child(4) {
     padding-bottom: 4em;
