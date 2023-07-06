@@ -154,7 +154,7 @@ header svg {
 
 #presentation {
   height: 100vh;
-  background: linear-gradient(rgba(17, 17, 17, 0.8666666667), rgba(17, 17, 17, 0.8666666667)), url(../img/LOGO_PLUVIAM_CONTORNO.png) center no-repeat;
+  background: linear-gradient(rgba(17, 17, 17, 0.631372549), rgba(17, 17, 17, 0.631372549)), url(../img/LOGO_PLUVIAM_CONTORNO.png) center no-repeat;
   background-size: 80%;
   display: flex;
   justify-content: end;
