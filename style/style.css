@@ -585,7 +585,7 @@ header svg {
     font-size: 1.2em;
   }
   #eventos .eventMonth {
-    padding: 3em 0;
+    padding: 0.5em 0;
   }
   #galery .galery {
     display: flex;
