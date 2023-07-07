@@ -552,7 +552,7 @@ header svg {
     height: 200px;
   }
   #eventos {
-    width: 95%;
+    width: 90%;
   }
   #eventos .eventDay {
     flex-direction: column;
