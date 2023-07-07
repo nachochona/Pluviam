@@ -59,7 +59,7 @@ header .navBar ul li {
 }
 header .navBar ul li a {
   text-transform: uppercase;
-  font-size: 1.5em;
+  font-size: 1.2em;
   color: #dddddd;
   text-decoration: none;
   transition: all 0.4s ease-in-out;
@@ -78,7 +78,7 @@ header .navBar ul li a:hover i {
   color: #3e8462;
 }
 header .navBar .navRedes i {
-  font-size: 2em;
+  font-size: 1.8em;
   background-color: rgba(0, 0, 0, 0.1254901961);
   padding: 0.1em 0.3em;
   margin: 0 0.1em;
@@ -208,13 +208,13 @@ header svg {
 #music .repertorioSongs .Song {
   background-color: rgba(0, 0, 0, 0.1254901961);
   transition: all 0.2s ease-in-out;
-  padding: 1.5em;
+  padding: 1.2em;
   display: flex;
   flex-direction: column;
 }
 #music .repertorioSongs .Song img {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
 }
 #music .repertorioSongs .Song .SongTitle {
   text-align: center;
@@ -240,21 +240,20 @@ header svg {
   color: transparent;
 }
 #music .repertorioSongs .Song .SongRedes i {
-  font-size: 4em;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 #music .repertorioSongs .Song .SongRedes .bi-spotify {
   color: #1ed760;
-  font-size: 3em;
+  font-size: 2.5em;
 }
 #music .repertorioSongs .Song .SongRedes .bi-spotify:hover {
   color: #46ff86;
 }
 #music .repertorioSongs .Song .SongRedes .bi-youtube {
   color: #c4302b;
-  font-size: 3.5em;
+  font-size: 3em;
 }
 #music .repertorioSongs .Song .SongRedes .bi-youtube:hover {
   color: #ff5a54;
@@ -292,20 +291,20 @@ header svg {
   align-items: center;
 }
 #eventos .eventMonth div .line {
-  height: 2px;
+  height: 1px;
   width: 100%;
   background-color: #3e8462;
 }
 #eventos .eventMonth div p {
   padding: 0 1em;
-  font-size: 1em;
+  font-size: 0.8em;
   text-transform: uppercase;
   color: #dddddd;
 }
 #eventos .eventDay {
   display: flex;
   justify-content: space-between;
-  height: 100px;
+  height: 90px;
   margin: 1em 0;
 }
 #eventos .eventDay .eventDayL {
@@ -324,7 +323,7 @@ header svg {
   color: #dddddd;
 }
 #eventos .eventDay .eventDayL .eventDayNumber p:nth-child(2) {
-  font-size: 2em;
+  font-size: 1.8em;
   color: #dddddd;
 }
 #eventos .eventDay .eventDayL .eventDayPlace {
@@ -336,7 +335,7 @@ header svg {
   transition: all ease-in-out 0.5s;
 }
 #eventos .eventDay .eventDayL .eventDayPlace p {
-  font-size: 2em;
+  font-size: 1.8em;
   color: #dddddd;
   display: block;
 }
@@ -344,11 +343,11 @@ header svg {
   font-size: 0.5em;
 }
 #eventos .eventDay .eventDayL .eventDayPlace p:nth-child(2) {
-  font-size: 1.1em;
+  font-size: 1em;
   color: #dddddd;
 }
 #eventos .eventDay .eventDayL .eventDayPlace p:nth-child(3) {
-  font-size: 1em;
+  font-size: 0.8em;
   color: #dddddd;
 }
 #eventos .eventDay .eventDayR {
@@ -553,11 +552,11 @@ header svg {
     height: 200px;
   }
   #eventos {
-    width: 90%;
+    width: 95%;
   }
   #eventos .eventDay {
     flex-direction: column;
-    margin: 2em 0;
+    margin: 1em 0;
   }
   #eventos .eventDay .eventDayL .eventDayNumber {
     padding: 0 0.5em 0 0;

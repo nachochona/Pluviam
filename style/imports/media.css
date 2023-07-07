@@ -39,11 +39,11 @@
     height: 200px;
   }
   #eventos {
-    width: 90%;
+    width: 95%;
   }
   #eventos .eventDay {
     flex-direction: column;
-    margin: 2em 0;
+    margin: 1em 0;
   }
   #eventos .eventDay .eventDayL .eventDayNumber {
     padding: 0 0.5em 0 0;
