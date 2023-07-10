@@ -587,14 +587,14 @@ header svg {
     z-index: -1;
   }
   #eventos .eventDay .eventDayR a i {
-    font-size: 1em;
+    font-size: 2em;
   }
   #eventos .eventDay .eventDayR span {
     margin: 2em 0 0 0;
     font-size: 1.2em;
   }
   #eventos .eventMonth {
-    padding: 0.5em 0;
+    padding: 1em 0;
   }
   #galery .galery {
     display: flex;
