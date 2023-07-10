@@ -29,12 +29,12 @@ header {
         top: 0;
         right: -40%;
         height: 100vh;
-        width: 25%;
+        width: 30%;
         gap: 2em;
         padding: 3em 1em 3em 0;
         background: transparent;
         //backdrop-filter: blur(20px);
-        background-color: #000000a4;
+        background-color: #000000d4;
         backface-visibility: hidden;
         transition: all .4s ease-in-out;
 
@@ -254,7 +254,6 @@ header {
                 display: flex;
                 justify-content: center;
                 gap: 3em;
-                z-index: 100;
                 a{
                     color: transparent;
                 }
@@ -499,7 +498,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 3em;
+    gap: 2.5em;
     img {
         max-width: 100px;
     }
@@ -507,14 +506,14 @@ header {
     .footRedes {
         display: flex;
         flex-flow: row wrap;
-        gap: 2em;
+        gap: 1em;
         a{
             cursor: pointer;
         }
         i {
-            font-size: 2em;
+            font-size: 1.8em;
             background-color: #00000030;
-            padding: .3em .5em;
+            padding: .2em .4em;
             margin: 0 .1em;
             transition: all .1s ease;
             margin: auto;
@@ -569,7 +568,7 @@ header {
     .footMenu {
         display: flex;
         flex-flow: row wrap;
-        gap: .5em;
+        gap: 2em;
         a {
             text-transform: uppercase;
             font-size: 1em;
