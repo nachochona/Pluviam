@@ -52,13 +52,14 @@
     }
 
     #eventos {
-        width: 90%;
+        width: 95%;
 
         .eventDay {
             flex-direction: column;
             margin: 1em 0;
             .eventDayL {
                 .eventDayNumber {
+                    width: 30px;
                     padding: 0 .5em 0 0;
                     p {
                         font-size: 0.8em;

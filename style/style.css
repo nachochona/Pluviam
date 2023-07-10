@@ -316,6 +316,7 @@ header svg {
   align-items: center;
   flex-direction: column;
   padding: 0 1em;
+  width: 50px;
 }
 #eventos .eventDay .eventDayL .eventDayNumber p {
   font-size: 1em;
@@ -548,13 +549,14 @@ header svg {
     height: 200px;
   }
   #eventos {
-    width: 90%;
+    width: 95%;
   }
   #eventos .eventDay {
     flex-direction: column;
     margin: 1em 0;
   }
   #eventos .eventDay .eventDayL .eventDayNumber {
+    width: 30px;
     padding: 0 0.5em 0 0;
   }
   #eventos .eventDay .eventDayL .eventDayNumber p {
