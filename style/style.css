@@ -39,7 +39,7 @@ header .navBar {
   height: 100vh;
   width: 30%;
   gap: 2em;
-  padding: 3em 1em 3em 0;
+  padding: 1.5em 2em 4em 0;
   background: transparent;
   background-color: rgba(0, 0, 0, 0.831372549);
   backface-visibility: hidden;
@@ -555,7 +555,7 @@ header svg {
     margin: 1em 0;
   }
   #eventos .eventDay .eventDayL .eventDayNumber {
-    padding: 0 0.5em 0 0;
+    padding: 1em 0 0;
   }
   #eventos .eventDay .eventDayL .eventDayPlace p {
     display: flex;

@@ -43,7 +43,7 @@
     margin: 1em 0;
   }
   #eventos .eventDay .eventDayL .eventDayNumber {
-    padding: 0 0.5em 0 0;
+    padding: 1em 0 0;
   }
   #eventos .eventDay .eventDayL .eventDayPlace p {
     display: flex;
