@@ -1,6 +1,7 @@
 const navBar = document.querySelector('.navBar');
 const abrirMenú = document.getElementById('abrirMenu');
 const cerrarMenú = document.getElementById('cerrarMenu');
+const listMenu= document.getElementById('listMenu');
 
 abrirMenú.addEventListener('click', ()=>{
     navBar.classList.add('visible');
@@ -11,6 +12,15 @@ cerrarMenú.addEventListener('click', ()=>{
     navBar.classList.remove('visible');
     abrirMenú.classList.remove('quitar');
 });
+
+listMenu.childNodes.forEach((element)=>{
+    element.addEventListener('click', ()=>{
+        navBar.classList.remove('visible');
+    abrirMenú.classList.remove('quitar');
+    })
+})
+
+
 
 
 
