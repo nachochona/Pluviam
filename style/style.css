@@ -406,7 +406,7 @@ header svg {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 1em;
+  gap: 0.5em;
   width: 75%;
   margin: 10em auto;
 }
