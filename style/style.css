@@ -557,7 +557,7 @@ header svg {
   }
   #eventos .eventDay .eventDayL .eventDayNumber {
     width: 30px;
-    padding: 0 0.5em 0 0;
+    padding: 0 1em 0 0;
   }
   #eventos .eventDay .eventDayL .eventDayNumber p {
     font-size: 0.8em;
