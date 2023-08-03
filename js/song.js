@@ -3,7 +3,7 @@ const Song =[
     {
         img:"https://i.scdn.co/image/ab67616d00001e02f96cd13a7ea4835d4b21ab1a",
         name:"Ragnarok",
-        age:"2022",
+        age:"2023",
         spotify:"https://open.spotify.com/track/4ZOFON5uG0tr01Xms9x4sS?si=175395de6e9140d8",
         youtube:"https://www.youtube.com/watch?v=kIjclhqpl7I&list=OLAK5uy_lyZcYtoIjHGeTPXE7ReMosCgVrYPk016c&ab_channel=Pluviam-Topic",
     },
