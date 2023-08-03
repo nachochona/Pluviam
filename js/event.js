@@ -117,7 +117,7 @@ const Eventos = [
         dayN: "eventDayNumber",
         dayP: "eventDayPlace",
         proximo:"",
-        link:"",
+        link:"https://www.youtube.com/@pluviam5059",
         proxW:"",
         youtube:"youtube",
         quitar:"",
@@ -165,7 +165,7 @@ const Eventos = [
         dayN: "eventDayNumber",
         dayP: "eventDayPlace",
         proximo:"",
-        link:"",
+        link:"https://www.youtube.com/@pluviam5059",
         proxW:"",
         youtube:"youtube",
         quitar:"",
@@ -190,7 +190,7 @@ const Eventos = [
         dayN: "eventDayNumber",
         dayP: "eventDayPlace",
         proximo:"",
-        link:"",
+        link:"https://www.youtube.com/@pluviam5059",
         proxW:"",
         youtube:"youtube",
         quitar:"",
@@ -238,7 +238,7 @@ const Eventos = [
         dayN: "eventDayNumber",
         dayP: "eventDayPlace",
         proximo:"",
-        link:"",
+        link:"https://www.youtube.com/@pluviam5059",
         proxW:"",
         youtube:"youtube",
         quitar:"",
@@ -286,7 +286,7 @@ const Eventos = [
         dayN: "eventDayNumber",
         dayP: "eventDayPlace",
         proximo:"",
-        link:"",
+        link:"https://www.youtube.com/@pluviam5059",
         proxW:"",
         youtube:"youtube",
         quitar:"",
@@ -334,7 +334,7 @@ const Eventos = [
         dayN: "eventDayNumber",
         dayP: "eventDayPlace",
         proximo:"",
-        link:"",
+        link:"https://www.youtube.com/@pluviam5059",
         proxW:"",
         youtube:"youtube",
         quitar:"",
@@ -382,7 +382,7 @@ const Eventos = [
         dayN: "eventDayNumber",
         dayP: "eventDayPlace",
         proximo:"",
-        link:"",
+        link:"https://www.youtube.com/@pluviam5059",
         proxW:"",
         youtube:"youtube",
         quitar:"",
@@ -430,7 +430,7 @@ const Eventos = [
         dayN: "eventDayNumber",
         dayP: "eventDayPlace",
         proximo:"",
-        link:"",
+        link:"https://www.youtube.com/@pluviam5059",
         proxW:"",
         youtube:"youtube",
         quitar:"",
@@ -455,7 +455,7 @@ const Eventos = [
         dayN: "eventDayNumber",
         dayP: "eventDayPlace",
         proximo:"",
-        link:"",
+        link:"https://www.youtube.com/@pluviam5059",
         proxW:"",
         youtube:"youtube",
         quitar:"",
@@ -486,7 +486,7 @@ function ShowEvent(event) {
                 </div>  
             </div>
             <div class="${element.dayR} ${element.nada} ${element.quitar}">
-                <a href="${element.link}"><i class="bi bi-${element.youtube}"></i></a>
+                <a href="${element.link}" target="_blank"><i class="bi bi-${element.youtube}"></i></a>
                 <span id="${element.prox}">${element.proxW}</span>
             </div>
         </div>
