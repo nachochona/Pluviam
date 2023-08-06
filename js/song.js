@@ -14,6 +14,13 @@ const Song =[
         spotify:"https://open.spotify.com/track/6qp0DEsMADy5OaRY5UYfwd?si=a0b34db3d5cd47fe",
         youtube:"https://www.youtube.com/watch?v=gfnjOlI9IGY&list=OLAK5uy_m3gGE374lv_nFhy2v_KzXmSevFbF-4WFk&ab_channel=Pluviam-Topic",
     },
+    {
+        img:"https://i.scdn.co/image/ab67616d00001e02d10eea112855d144ff75fedf",
+        name:"Ángel Cazador",
+        age:"2023",
+        spotify:"https://open.spotify.com/intl-es/album/7yUR9s01638Vp4xF1xJa86?si=9tXBiR_-QOuIygQU8e1jDA",
+        youtube:"https://www.youtube.com/watch?v=Uxai3KYuTK8&ab_channel=Pluviam-Topic",
+    },
 ];
 
 const songBox = document.getElementById("repertorio");
