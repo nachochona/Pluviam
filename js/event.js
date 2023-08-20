@@ -102,7 +102,7 @@ const Eventos = [
         dayP: "eventDayPlace",
         proximo: "proximo",
         link: "https://www.instagram.com/p/CwAn_VEuryM/?igshid=MTc4MmM1YmI2Ng%3D%3D",
-        proxW: "Proximamanete",
+        proxW: "Próximamente",
         youtube: "",
         quitar: "",
         line: "",
