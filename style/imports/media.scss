@@ -140,3 +140,19 @@
 
 
 }
+@media(max-width: 1140px) and (min-width: 769px){
+    #music {
+        .repertorioSongs {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            .Song{
+                img{
+                    width: 200px;
+                    height: 200px;
+                }
+            }
+        }
+
+    }
+
+}

@@ -21,6 +21,13 @@ const Song =[
         spotify:"https://open.spotify.com/intl-es/album/7yUR9s01638Vp4xF1xJa86?si=9tXBiR_-QOuIygQU8e1jDA",
         youtube:"https://www.youtube.com/watch?v=Uxai3KYuTK8&ab_channel=Pluviam-Topic",
     },
+    {
+        img:"https://i.scdn.co/image/ab67616d00001e02758b2b71af153a6db8d11ec8",
+        name:"Fenix",
+        age:"2024",
+        spotify:"https://open.spotify.com/intl-es/track/6xwobv4CSVOwQ7jqHE18YJ?si=91c689fef5674864",
+        youtube:"https://www.youtube.com/watch?v=4ylKESgK6JE&ab_channel=Pluviam-Topic",
+    },
 ];
 
 const songBox = document.getElementById("repertorio");

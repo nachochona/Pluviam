@@ -53,8 +53,55 @@ const Eventos = [
     // },
 
 
+    //MONTH
+    {
+        nada: "",
+        mes: "Mayo 2024",
+        dia: "",
+        diaN: "",
+        place: "",
+        calle: "",
+        ciudad: "",
+        hora: "",
+        prox: "",
+        month: "eventMonth",
+        day: "",
+        dayL: "",
+        dayR: "",
+        dayN: "",
+        dayP: "",
+        link: "",
+        proxW: "",
+        youtube: "",
+        quitar: "quitar",
+        line: "line",
+    },
 
+    //DIA
+    {
+        nada: "",
+        mes: "",
+        dia: "Vie",
+        diaN: "03",
+        place: "Club V",
+        calle: "- Corrientes 5008",
+        ciudad: "CABA",
+        hora: "19:00 hs",
+        prox: "prox",
+        month: "1",
+        day: "eventDay",
+        dayL: "eventDayL",
+        dayR: "eventDayR",
+        dayN: "eventDayNumber",
+        dayP: "eventDayPlace",
+        proximo: "proximo",
+        link: "https://www.youtube.com/@pluviam5059/featured",
+        proxW: "Próximamente",
+        youtube: "",
+        quitar: "",
+        line: "",
 
+    },
 
 
 
@@ -100,10 +147,10 @@ const Eventos = [
         dayR: "eventDayR",
         dayN: "eventDayNumber",
         dayP: "eventDayPlace",
-        proximo: "proximo",
-        link: "https://www.instagram.com/p/CwAn_VEuryM/?igshid=MTc4MmM1YmI2Ng%3D%3D",
-        proxW: "Próximamente",
-        youtube: "",
+        proximo: "",
+        link: "https://www.youtube.com/@pluviam5059/featured",
+        proxW: "",
+        youtube: "youtube",
         quitar: "",
         line: "",
 

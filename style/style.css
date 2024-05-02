@@ -202,13 +202,12 @@ header svg {
 #music .repertorioSongs {
   display: flex;
   flex-flow: row nowrap;
-  gap: 10em;
-  width: 100%;
+  gap: 5em;
 }
 #music .repertorioSongs .Song {
   background-color: rgba(0, 0, 0, 0.1254901961);
   transition: all 0.2s ease-in-out;
-  padding: 1.2em;
+  padding: 1em;
   display: flex;
   flex-direction: column;
 }
@@ -611,5 +610,15 @@ header svg {
   }
   #contact .copyright {
     font-size: 0.8em;
+  }
+}
+@media (max-width: 1140px) and (min-width: 769px) {
+  #music .repertorioSongs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #music .repertorioSongs .Song img {
+    width: 200px;
+    height: 200px;
   }
 }/*# sourceMappingURL=style.css.map */

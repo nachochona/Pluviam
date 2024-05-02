@@ -219,13 +219,12 @@ header {
     .repertorioSongs {
         display: flex;
         flex-flow: row nowrap;
-        gap: 10em;
-        width: 100%;
+        gap: 5em;
 
         .Song {
             background-color: #00000020;
             transition: all .2s ease-in-out;
-            padding: 1.2em;
+            padding: 1em;
             display: flex;
             flex-direction: column;
             img {
