@@ -28,6 +28,13 @@ const Song =[
         spotify:"https://open.spotify.com/intl-es/track/6xwobv4CSVOwQ7jqHE18YJ?si=91c689fef5674864",
         youtube:"https://www.youtube.com/watch?v=4ylKESgK6JE&ab_channel=Pluviam-Topic",
     },
+    {
+        img:"https://i.scdn.co/image/ab67616d00001e023af79be737b187fc4492aad5",
+        name:"Rosas Blancas",
+        age:"2024",
+        spotify:"https://open.spotify.com/intl-es/album/0tqS8ORWtfycZLaPm6IG43",
+        youtube:"https://www.youtube.com/watch?v=9PSFhqibiWw&list=OLAK5uy_k5DbyJfCB6Gsn80ub-N2BkY9_KtBGCNP8&ab_channel=Pluviam-Topic",
+    },
 ];
 
 const songBox = document.getElementById("repertorio");

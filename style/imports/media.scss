@@ -142,6 +142,8 @@
 }
 @media(max-width: 1140px) and (min-width: 769px){
     #music {
+        height: auto;
+        padding: 5em 0;
         .repertorioSongs {
             display: grid;
             grid-template-columns: 1fr 1fr;

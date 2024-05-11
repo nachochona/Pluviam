@@ -201,8 +201,9 @@ header svg {
 }
 #music .repertorioSongs {
   display: flex;
-  flex-flow: row nowrap;
-  gap: 5em;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 2.5em;
 }
 #music .repertorioSongs .Song {
   background-color: rgba(0, 0, 0, 0.1254901961);
@@ -257,7 +258,7 @@ header svg {
   color: #ff5a54;
 }
 #music .repertorioSongs .Song:hover {
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1254901961);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2509803922);
 }
 
 #eventos {
@@ -613,6 +614,10 @@ header svg {
   }
 }
 @media (max-width: 1140px) and (min-width: 769px) {
+  #music {
+    height: auto;
+    padding: 5em 0;
+  }
   #music .repertorioSongs {
     display: grid;
     grid-template-columns: 1fr 1fr;

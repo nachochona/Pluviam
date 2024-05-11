@@ -94,10 +94,10 @@ const Eventos = [
         dayR: "eventDayR",
         dayN: "eventDayNumber",
         dayP: "eventDayPlace",
-        proximo: "proximo",
+        proximo: "",
         link: "https://www.youtube.com/@pluviam5059/featured",
-        proxW: "Próximamente",
-        youtube: "",
+        proxW: "",
+        youtube: "youtube",
         quitar: "",
         line: "",
 
